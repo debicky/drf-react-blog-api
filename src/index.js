@@ -13,7 +13,7 @@ const routing = (
             <Routes>
                 <Route path="/" element={<App />} />
             </Routes>
-            {/*<Footer />*/}
+            <Footer />
         </React.StrictMode>
     </Router>
 )
