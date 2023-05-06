@@ -12,7 +12,7 @@ function App() {
     
     useEffect(() => {
         setAppState({loading: true})
-        const apiUrl = `http://127.0.0.1:8000/api/a`;
+        const apiUrl = `http://127.0.0.1:8000/api/`;
         fetch(apiUrl)
             .then((data) => data.json())
             .then((posts) => {
